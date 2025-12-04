@@ -1,0 +1,11 @@
+{
+  "models": [
+    {
+      "title": "Qwen-Max",
+      "provider": "openai",
+      "model": "qwen-max",
+      "apiBase": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiKey": "sk-4d0d5a3a9eeb46eab15cb8d1c0d65738"
+    }
+  ]
+}

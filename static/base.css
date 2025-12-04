@@ -1,0 +1,75 @@
+/* 标题背景 */
+header {
+    background: linear-gradient(to bottom, #c7e1ff, #a9c8ff);
+    border-bottom: 3px solid #90b6ff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* body背景 */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f6ff;
+    font-family: "Trebuchet MS", "Hiragino Sans GB", sans-serif;
+    color: #222;
+}
+
+/* 标题样式 */
+.site-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2b4f9e;
+    text-shadow: 2px 2px 0 #ffffff;
+    letter-spacing: 2px;
+}
+
+/* 导航栏按钮以及文字 */
+nav a {
+    margin: 0 10px;
+    padding: 6px 14px;
+    color: #2b4f9e;
+    background: #e9f2ff;
+    border: 2px solid #b4caff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 2px 0 #90b6ff;
+}
+
+nav a:hover {
+    background: #ffffff;
+    border-color: #8aadff;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 6px ridge #b7ccff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    /* 光标样式 */
+    cursor: url("https://cur.cursors-4u.net/anime/ani-12/ani1136.gif"), auto !important;
+
+}
+
+h2 {
+    color: #3f5fb8;
+    text-shadow: 1px 1px #fff;
+    border-bottom: 2px dashed #b6caff;
+    padding-bottom: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #6b7fb8;
+    font-size: 14px;
+}
+
+
+

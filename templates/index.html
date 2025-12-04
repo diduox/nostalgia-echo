@@ -1,0 +1,36 @@
+<!-- index.html -->
+{% extends "base.html" %}
+
+{% block styles %}
+<style>
+.visit-stats {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.visit-stats p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+</style>
+{% endblock %}
+
+{% block title %}主页{% endblock %}
+
+
+{% block content %}
+    <section>
+        <h2>欢迎各位小逼崽子来到我的大病乐园</h2>
+        <!-- 统计访问信息-->
+        <div class="visit-stats">
+            <p><strong>当前访问时间：</strong>{{ visit_time }}</p>
+            <p><strong>您的IP地址：</strong>{{ visitor_ip }}</p>
+            <p><strong>您来自：</strong>{{ location.country }} {{ location.region }} {{ location.city }}</p>
+            <p><strong>网络运营商：</strong>{{ location.isp }}</p>
+            <p><strong>您是第 {{ visit_number }} 位访问者</strong></p>
+            <p><strong>当前在线人数：</strong>{{ online_count }} 人</p>
+        </div>
+    </section>
+{% endblock %}
