@@ -25,7 +25,7 @@ def get_location_info(ip):
     """使用IP地址获取地理位置信息"""
     try:
         # 使用免费的IP地理位置API
-        response = requests.get(f'https://ip-api.com/json/{ip}')
+        response = requests.get(f'https://ipwhois.app/json/{ip}')
         if response.status_code == 200:
             data = response.json()
             if data['status'] == 'success':
